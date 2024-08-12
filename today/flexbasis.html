@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>flexbox</title>
+<style>
+    .container{
+        color: wheat;
+        border: 5px solid gold;
+        display: block;
+        flex-direction: column;
+    }
+    .container > * {
+        flex-basis:100px;
+    }
+    .red{ background-color: red;}
+    .yellow{background-color: yellow;}
+    .purple{background-color: purple;}
+    .orange{background-color: orange;}
+    .green{background-color: green;}
+    .blue{background-color: blue;}
+    .black{background-color: black;}
+    
+</style>
+</head>
+<body>
+    <div class="contianer">
+        <div class="red"> <h2>Red</h2></div>
+        <div class="yellow"> <h2>yellow</h2></div>
+         <div class="purple"><h2>purple</h2></div>
+        <div class="orange"><h2>orange</h2></div>
+        <div class="green"><h2>green</h2></div>
+        <div class="blue"><h2>blue</h2></div>
+        <div class="black"><h2>black</h2></div>
+    </div>
+</body>
+</html>
